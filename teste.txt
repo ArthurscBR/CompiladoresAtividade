@@ -1,0 +1,63 @@
+
+int a
+int b
+float c
+var d
+
+a = 20
+b = 4
+c = 2.5
+d = 8
+
+escreva(a + b)
+escreva(a - b)
+escreva(a * b)
+escreva(a / b)
+escreva(c + d)
+escreva((a + b) * 2)
+
+
+SE (a > b) {
+    escreva(100)
+}
+
+
+SE (a < b) {
+    escreva(200)
+} SENAO {
+    escreva(300)
+}
+
+
+SE (a >= 20) {
+    escreva(400)
+}
+
+
+SE (b <= 4) {
+    escreva(500)
+}
+
+
+SE (a == 20) {
+    escreva(600)
+}
+
+
+SE (a != b) {
+    escreva(700)
+}
+
+
+repete (a > 17) {
+    a = a - 1
+}
+
+escreva(a)
+
+
+repete (b < 6) {
+    b = b + 1
+}
+
+escreva(b)
